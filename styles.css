@@ -1,0 +1,151 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+* {
+/*     outline: solid; */
+    outline-color: green;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 570px;
+    height: 733px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top {
+    box-sizing: border-box;
+    height: 140px;
+    background-color: #373737;
+    padding-left: 25px;
+    color: white;
+}
+.title {
+    font-size: 10pt;
+    margin-top: 20px;
+}
+
+.prompt {
+    font-size: 20pt;
+    margin-top: 15px;
+}
+
+.middle {
+    flex: 1;
+    background-color: #2c2c2c;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding: 0px;
+    margin: 0px;
+    padding-left: 25px;
+}
+.app-wrapper {
+    height: 107px;
+    width: auto;
+    display: flex;
+    align-items: center;
+
+}
+.logo {
+    float: left;
+    width: 60px;
+}
+.logo-text {
+    color: white;
+    font-size: 17pt;
+    padding-left: 10px;
+}
+
+.text-wrapper {
+    flex: 1;
+    outline-color: red;
+    font-size: 13pt;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.publisher-origin {
+    color: white;
+}
+.details {
+    color: #99EBFF;
+    margin-top: -15px;
+}
+.continue {
+    color: white;
+}
+
+.pin-wrapper {
+    height: 220px;
+}
+.pin-logo {
+    padding-top: 32px;
+    width: 62px;
+    float: left;
+}
+.pin-text-wrapper {
+    padding-top: 32px;
+    padding-left: 12px;
+    overflow: hidden;
+    color: white;
+    font-size: 13pt;
+}
+.pin-text {
+    
+}
+.email-address {
+    padding-top: 12pt;
+    padding-bottom: 20px;
+}
+.pin-input {
+    height: 35px;
+    width: 430px;
+    border-radius: 6px;
+    border: 2px solid #A94DC1;
+    outline: none;
+    font-size: 12pt;
+}
+input[type="password"]::cue {
+    font-size: 88pt; /* adjust the font size as needed */
+}
+.forgot-pin {
+    padding-top:  20px;
+    color: #A94DC1;
+}
+
+
+
+.bottom {
+/*     height: 82px; */
+    height: 95px;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.button {
+    background-color: #4cc0fc;
+    padding: 9px 20px;
+
+    width: calc(50% - 40px);
+    border-radius: 5px;
+    border: 3px solid #313131;
+}
+
